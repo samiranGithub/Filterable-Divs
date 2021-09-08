@@ -44,7 +44,6 @@ body {
     }
 }
 
-
 .filter_items {
     @include display-flex-center;
 
@@ -52,22 +51,12 @@ body {
         width: 150px;
         height: 100px;
         background-color: $color_gray;
-        // display: none;
+        display: flex;
         align-items: center;
         justify-content: center;
         margin: 20px 10px 10px 10px;
         color: $color_light;
-        animation: fade 0.9s forwards;
-        text-align: center;
-
-        span {
-            line-height: 100px;
-        }
-        
-        // &.active {
-        //     display: flex;
-        //     animation: fade 0.9s forwards;
-        // }
+        animation: fade 0.9s;
         @keyframes fade {
             from {
                 opacity: 0;

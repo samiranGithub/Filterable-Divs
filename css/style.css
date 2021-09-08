@@ -67,6 +67,9 @@ body {
   width: 150px;
   height: 100px;
   background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -75,13 +78,8 @@ body {
           justify-content: center;
   margin: 20px 10px 10px 10px;
   color: #f1f1f1;
-  -webkit-animation: fade 0.9s forwards;
-          animation: fade 0.9s forwards;
-  text-align: center;
-}
-
-.filter_items .items span {
-  line-height: 100px;
+  -webkit-animation: fade 0.9s;
+          animation: fade 0.9s;
 }
 
 @-webkit-keyframes fade {
