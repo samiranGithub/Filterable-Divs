@@ -76,6 +76,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 20px 10px 10px 10px;
   color: #f1f1f1;
   -webkit-animation: fade 0.9s;

@@ -51,9 +51,7 @@ body {
         width: 150px;
         height: 100px;
         background-color: $color_gray;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include display-flex-center;
         margin: 20px 10px 10px 10px;
         color: $color_light;
         animation: fade 0.9s;

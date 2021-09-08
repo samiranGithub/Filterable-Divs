@@ -9,11 +9,9 @@ btns.forEach(btn => {
         this.classList.add('active');
         let dataId = e.currentTarget.dataset.id;
         items.forEach(item => {
-            // item.classList.remove('active');
             item.style.display = "none";
 
             if ((item.className.match(dataId) || (dataId === "all"))) {
-                // item.classList.add('active');
                 item.style.display = "flex";
             }
         });
